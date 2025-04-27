@@ -1,0 +1,287 @@
+/* Header Row */
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Links */
+.header-row a {
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s ease-in-out;
+}
+
+.header-row a:hover {
+  color: white !important; /* Ensures text color changes */
+}
+.header-row i {
+  font-size: 25px;
+}
+
+/* Navbar Links Hover Effect */
+.nav-link:hover {
+  background-color: #FFD700  !important; /* Background change */
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s ease-in-out;
+  padding: 20px;
+}
+
+/* Full Column Hover Effect */
+.hover-effect {
+  background-color: transparent;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.hover-effect:hover {
+  background-color: #FFD700  !important;
+  font-family: Arial, sans-serif;
+}
+
+/* Dropdown Hover */
+.dropdown-hover:hover .dropdown-toggle {
+  background-color: #FFD700  !important;
+  font-family: Arial, sans-serif;
+}
+
+/* Custom Dropdown Styles */
+.custom-dropdown .dropdown-menu {
+  border: none !important;
+  background-color: #6B8E23 !important; /* Olive Green */
+  font-family: Arial, sans-serif;
+}
+.custom-dropdown{
+  font-weight: bold;
+}
+
+/* Dropdown Item Hover */
+.custom-dropdown .dropdown-item:hover {
+  background-color: #FFD700  !important;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Dropdown Menu Position */
+.dropdown-menu-custom {
+  position: absolute !important;
+  top: 80px !important;
+  left: 0;
+  z-index: 999;
+  padding: 20px;
+}
+
+/* Dropdown Toggle */
+.dropdown-toggle-custom {
+  background-color: #6B8E23 !important;
+  color: black !important;
+  font-family: Arial, sans-serif;
+  border: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.dropdown-toggle-custom:hover {
+  background-color: #FFD700  !important;
+}
+.nav-link:hover i {
+  color: black !important; /* Change icon color to black on hover */
+  transition: color 0.3s ease-in-out; /* Smooth transition */
+}
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin:10px;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-section ul li a:hover {
+  color: #FFD700 ; /* Hover effect */
+}
+
+.footer-section i {
+  font-size: 18px;
+  margin-right: 10px;
+}
+.footer-section h5 {
+  font-weight: bold; /* Makes the text bold */
+  text-decoration: underline; /* Adds underline */
+}
+.boxicons-style {
+  background-color: #FFD700 ; /* Sets background to yellow */
+  border: 2px solid white; /* Adds white border */
+  border-radius: 50px; /* Rounded corners */
+  color: white !important; /* Ensures icons are white */
+  padding: 10px; /* Adds spacing */
+  font-size: 25px; /* Keeps icons readable */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Follow Us Section */
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons img {
+  transition: transform 0.3s ease-in-out;
+  margin-top: 20px;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
+.overlay-background {
+  background-color: olivegreen;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay-background {
+  background-color: olivegreen;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.overlay {
+  position: fixed;
+  top: 10%;
+  left: 20%;
+  width: 70%;
+  height: 60%;
+  background: olivedrab;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay-content {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.close-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.form-container {
+  border: 2px solid lightgray; /* Gold border */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.input-container {
+  border: 2px solid #FFD700; /* Gold border for input boxes */
+  border-radius: 5px;
+  margin-top:20px;
+}
+.input-container input {
+  border: none;
+  width: 90%;
+  box-sizing: border-box; /* Ensures padding doesn't affect dimensions */
+}
+.textarea-container textarea {
+  border: 2px solid #FFD700; /* Gold border */
+  padding: 20px; /* Inner spacing */
+  border-radius: 10px; /* Rounded corners */
+  width: 100%;
+  margin-top:20px;
+  height: 200px; /* Consistent height */
+  box-sizing: border-box; /* Ensures padding doesn't affect dimensions */
+}
+
+.text-center .btn {
+  background-color: olivedrab;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.text-center .btn:hover {
+  background-color: #FFD700; /* Golden yellow */
+  color: white;
+}
+/* Popup background */
+.support-popup {
+  background-color: white; /* Olive green */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Content layout */
+.popup-content {
+  background: #6B8E23;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 800px;
+  width: 100%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Form styling */
+.form-container {
+  padding: 20px;
+}
+
+.form-control {
+  border: 2px solid #FFD700; /* Gold border */
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+/* Register button */
+.btn-register {
+  background-color: #FFD700; /* Golden yellow */
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+}
+
+.btn-register:hover {
+  background-color: #FFC107; /* Slightly darker yellow */
+}
+.product-card:hover {
+  transform: scale(1.05);
+
+}
+
+.product-card img:hover {
+  transform: scale(1);
+}
+
+
