@@ -269,7 +269,7 @@ const CheckoutPage = () => {
                                     borderRadius: "10px",
                                     padding: "10px",
                                     textAlign: "center",
-                                }}
+                                }}c
                             >
                                 <input
                                     type="radio"
@@ -422,3 +422,4 @@ const CheckoutPage = () => {
 };
 
 export default CheckoutPage;
+
