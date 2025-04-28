@@ -26,12 +26,12 @@ const Header = () => {
           <Dropdown className="custom-dropdown">
             <Dropdown.Toggle variant="success" className="dropdown-toggle-custom">Shop by Category</Dropdown.Toggle>
             <Dropdown.Menu className="dropdown-menu-custom">
-              <Dropdown.Item href="/product?category=Teas%20%26%20Infusion" className="dropdown-item-hover">Teas & Infusions</Dropdown.Item>
-              <Dropdown.Item href="/product?category=Health%20%26%20Wellness" className="dropdown-item-hover">Health & Wellness</Dropdown.Item>
-              <Dropdown.Item href="/product?category=Staple%20%26%20Packed Food" className="dropdown-item-hover">Staple & Packed Foods</Dropdown.Item>
-              <Dropdown.Item href="/product?category=Pulses%20%26%20Dhals" className="dropdown-item-hover">Pulses & Dhals</Dropdown.Item>
-              <Dropdown.Item href="/product?category=PersonalCare" className="dropdown-item-hover">Personal Care</Dropdown.Item>
-              <Dropdown.Item href="/product?category=Detox" className="dropdown-item-hover">Detox</Dropdown.Item>
+              <Dropdown.Item as={Link} to="/product?category=Teas%20%26%20Infusion" className="dropdown-item-hover">Teas & Infusions</Dropdown.Item>
+              <Dropdown.Item as={Link} to="/product?category=Health%20%26%20Wellness" className="dropdown-item-hover">Health & Wellness</Dropdown.Item>
+              <Dropdown.Item as={Link} to="/product?category=Staple%20%26%20Packed Food" className="dropdown-item-hover">Staple & Packed Foods</Dropdown.Item>
+              <Dropdown.Item as={Link} to="/product?category=Pulses%20%26%20Dhals" className="dropdown-item-hover">Pulses & Dhals</Dropdown.Item>
+              <Dropdown.Item as={Link} to="/product?category=PersonalCare" className="dropdown-item-hover">Personal Care</Dropdown.Item>
+              <Dropdown.Item as={Link} to="/product?category=Detox" className="dropdown-item-hover">Detox</Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
 
@@ -43,13 +43,13 @@ const Header = () => {
             Track Order
           </Nav.Link>
           <Nav.Link as={Link} to="/about">About Us</Nav.Link>
-          <Nav.Link href="/contact-us">Contact Us</Nav.Link>
-          <Nav.Link href="/support" className='support' style={{ position: 'relative' }}>Support</Nav.Link>
-          <Nav.Link href="/Register" className="nav-hover">
+          <Nav.Link as={Link} to="/contact-us">Contact Us</Nav.Link>
+          <Nav.Link as={Link} to="/support" className='support' style={{ position: 'relative' }}>Support</Nav.Link>
+          <Nav.Link as={Link} to="/Register" className="nav-hover">
             <i className='bx bx-group' style={{ fontSize: '25px', color: 'yellow' }}></i>
           </Nav.Link>
           <Nav.Link
-            href="/cart"
+            as={Link} to="/cart"
             className={`nav-hover ${location.pathname === '/cart' ? 'active-link' : ''}`}
           >
             <i className="bx bx-cart" style={{ fontSize: '25px', color: 'yellow' }}></i>
