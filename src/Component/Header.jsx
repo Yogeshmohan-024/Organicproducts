@@ -42,7 +42,7 @@ const Header = () => {
           >
             Track Order
           </Nav.Link>
-          <Nav.Link href="/about">About Us</Nav.Link>
+          <Nav.Link as={Link} to="/about">About Us</Nav.Link>
           <Nav.Link href="/contact-us">Contact Us</Nav.Link>
           <Nav.Link href="/support" className='support' style={{ position: 'relative' }}>Support</Nav.Link>
           <Nav.Link href="/Register" className="nav-hover">
