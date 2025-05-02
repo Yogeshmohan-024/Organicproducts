@@ -133,8 +133,8 @@ const Home = () => {
 
       {/* Best Selling Products Section */}
       <div
-        className="d-flex flex-column align-items-center"
-        style={{ marginTop: "50px", fontFamily: "Arial" }}
+        className="d-flex flex-column align-items-center flex-wrap"
+        style={{ marginTop: "50px", fontFamily: "Arial" ,flexWrap:"wrap"}}
       >
         <h2
           style={{
@@ -155,6 +155,7 @@ const Home = () => {
             gap: "20px",
             marginTop: "20px",
             paddingBottom: "20px",
+            flexWrap: "wrap",
           }}
         >
           {/* Inline CSS for hiding scrollbars */}
@@ -331,8 +332,8 @@ const Home = () => {
 
       {/* OUR PRODUCTS Section */}
       <div
-        className="d-flex flex-column align-items-center flex-wrap"
-        style={{ marginTop: "50px", fontFamily: "Arial"}}
+        className="d-flex flex-column align-items-center "
+        style={{ marginTop: "50px", fontFamily: "Arial",flexWrap:"wrap"}}
       >
         <h2
           style={{
