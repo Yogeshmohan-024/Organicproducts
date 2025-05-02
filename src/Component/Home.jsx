@@ -331,8 +331,8 @@ const Home = () => {
 
       {/* OUR PRODUCTS Section */}
       <div
-        className="d-flex flex-column align-items-center"
-        style={{ marginTop: "50px", fontFamily: "Arial" }}
+        className="d-flex flex-column align-items-center flex-wrap"
+        style={{ marginTop: "50px", fontFamily: "Arial"}}
       >
         <h2
           style={{
